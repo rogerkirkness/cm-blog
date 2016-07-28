@@ -3,8 +3,6 @@ layout: post
 title: Understanding Profitability In Food Processing
 ---
 
-#### Introduction
-
 This article talks about a less conventional way to look at the profitability of your food processing company. It's generally accepted that management accounting is important to successfully running a manufacturing business, food processing being no different. What separates different companies in the long term is often a matter of how often your perception of the performance of your business aligns with what's actually happening.
 
 In order to minimize the gap between perception and reality, you first need to identify which indicators are the best ones to use for managing the business and what goals they're tracked against (growth? profitability?). Then you need to implement a system which allows you to produce those indicators easily, on a regular basis, so you can track your progress.

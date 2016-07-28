@@ -3,8 +3,6 @@ layout: post
 title: Learn 4 Food Processing Costing Methods
 ---
 
-#### Introduction
-
 The food processing industry is extremely competitive. Because consumers can easily substitute one company's products for another, food processors often have market pressure to reduce pricing in order to compete with each other. Combined with steady inflation in the input costs of raw food materials, this squeezes the margins of food processors.
 
 We find that food processors understand surprisingly little about which products and customers are generating their margin dollars (useful for optimizing a low margin business). Often when tracking inventory manually (paper, Excel), you are unable to keep up with the frequency that your inventory valuation is updated. This often causes food processors to resign to understanding cost of goods sold periodically instead of in real time (ie. accounting calculations at month end) due to the overwhelming burden of updating costs.
@@ -93,6 +91,6 @@ In a situation where you have multiple distribution facilities, it can be advant
 
 Including these costs in your products allows you to understand your true margin without having to split out each location's accounting on it's own. This is only necessary if you have multiple locations, in which case it's often what people will use for costing once they get to a level that they're consistently adding shipping and handling charges to their products.
 
-Conclusion
+#### Conclusion
 
 Identifying which costing methods is the optimal one for your business can be challenging, and it depends on whether you have multiple locations, how much variation there is in your input costs and whether you're easily able to average the costs of your products together. In a future article I'll discuss some of the more uncommon methods of costing, such as those which are used for disassembly of goods. It can be interesting to use different costing methods before settling on one, as each provides information from a unique perspective.
