@@ -3,9 +3,7 @@ layout: post
 title: Introducing Catchmate
 ---
 
-Our mission is to make weighing, labelling and tracking food products on the plant floor as easy as possible for our customers.
-
-We started Catchmate because we saw that independent food processors needed an inexpensive, easy-to-use solution for weighing, labelling and tracing products. We hope to provide a superior alternative to existing proprietary plant floor technology vendors.
+Our mission is to make weighing, labelling and tracking food products on the plant floor as easy as possible for our customers. We started Catchmate because we saw that independent food processors needed an inexpensive, easy-to-use solution for weighing, labelling and tracing products.
 
 This blog will discuss various regulations, technologies, threats and opportunities relevant to our customers.
 
