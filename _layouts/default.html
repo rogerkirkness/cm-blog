@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+<head>
+  <title>Catchmate Blog</title>
+  <meta charset="utf-8" />
+  <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  {% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt| strip_html }}" />
+  <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}" />
+  {% endif %}
+  <meta name="author" content="{{ site.name }}" />
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="twitter:title" content="{{ page.title }}" />
+  {% endif %}
+  <link rel="stylesheet" type="text/css" href="https://catchmate.ca/bootstrap.min.css"
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a style="padding-top: 8px;" class="navbar-brand page-scroll" href="#home"><img src="img/Catchmate2.png" height="30" width="140" alt="Catchmate"></a>
       </div>
-    </div>
-
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <p style="padding-right:220px;color:#2e6da4;" class="navbar-text"><small>Sales: 800-668-1284 ext 113</small></p>
+          <li><a class="page-scroll" href="#home">Intro</a><li>
+            <li><a class="page-scroll" href="#solution">Solution</a></li>
+            <li><a href="https://blog.catchmate.ca">Blog</a></li>
+            <a style="padding-left:15px;" href="/cdn-cgi/l/email-protection#f9919c959596b99a988d9a9194988d9cd79a98c6aa8c9b939c9a8dc4ba988d9a9194988d9cd9bd9c9496"><button type="button" class="btn btn-info navbar-btn">Request Demo</button></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -45,7 +54,7 @@
         </footer>
       </div>
     </div>
-
+    <script src="https://catchmate.ca/bootstrap.min.js"></script>
     {% include analytics.html %}
   </body>
-</html>
+  </html>
