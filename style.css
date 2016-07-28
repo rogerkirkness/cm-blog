@@ -182,7 +182,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #EEE;
 
   @include mobile {
@@ -239,7 +239,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px;
+  margin-top: 5px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 
