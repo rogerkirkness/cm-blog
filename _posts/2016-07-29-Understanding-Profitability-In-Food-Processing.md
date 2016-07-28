@@ -31,8 +31,13 @@ The format to evaluate the profitability of a customer/item can either be by ite
 
 For a given period (people often use four weeks, a month or a year as the period) you would list a number of different pieces of information across the top of the spreadsheet/report. We recommend columns for: quantity sold, sale price, total sale amount, total cost, margin achieved and margin percent. Here's what it looks like by item/customer:
 ![profit1]({{site.baseurl}}/img/profit1.jpg "Profit1")
+
 or by item:
+
 ![profit2]({{site.baseurl}}/img/profit2.jpg "Profit2")
+
 or by customer:
+
 ![profit3]({{site.baseurl}}/img/profit3.jpg "Profit3")
-As you can see, the far right-hand column gives you a quick way to determine if the customer and/or item are profitable to the business or not. Combining comprehensive product costing with this kind of analysis gives you far more insight than an income statement would as to which items/customers are profitable vs. those which need improvement. We believe these reports are a critical tool for managers to make decisions effectively.
+
+As you can see, the far right-hand column gives you a quick way to determine if the customer and/or item are profitable or not. Combining comprehensive product costing with this kind of analysis gives you far more insight than an income statement would as to which items/customers are profitable vs. those which need improvement. We believe these reports are a critical tool for managers to make decisions effectively.
