@@ -46,23 +46,6 @@ table {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-// Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
@@ -74,27 +57,25 @@ html {
 }
 
 body {
-	background: $white;
+	background: #FFF;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #333;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 50px 10px;
+  padding: 0px 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-
   @include mobile {
     line-height: 1.4;
   }
@@ -117,7 +98,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #666;
 }
 
 p {
@@ -125,11 +106,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #4183C4;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #4183C4;
   }
 }
 
@@ -173,17 +154,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #666;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #000;
+  background: #EEE;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #000;
+  background: #EEE;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -198,21 +179,13 @@ img {
     clear: both;
 }
 
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
 .wrapper-masthead {
   margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #EEE;
 
   @include mobile {
     text-align: center;
@@ -248,9 +221,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #333;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -258,7 +231,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #666;
   font-size: 16px;
 
   @include mobile {
@@ -268,8 +241,8 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  margin-top: 23px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 
   @include mobile {
@@ -281,14 +254,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #333;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #4183C4;
     }
   }
 }
@@ -299,7 +272,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #EEE;
 }
 
 .posts > .post:last-child {
@@ -310,9 +283,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid #666;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #666;
     font-size: 22px;
     font-style: italic;
   }
@@ -331,7 +304,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #EEE;
 }
 
 footer {
