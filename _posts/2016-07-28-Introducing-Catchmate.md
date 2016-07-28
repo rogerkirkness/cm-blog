@@ -14,9 +14,9 @@ This would prevent our customers from having to make a risky investment in outda
 Catchmate can be connected to any of your existing plant floor scale, making your scales (and plant floor) smarter.
 
 The key things Catchmate seeks to address that are not currently well served are:
-* Weighing products on any existing plant floor scale without buying new hardware
-* No requirement for hardware vendor lock-in - you can buy new scales from anyone
-* Flexible deployment options - cloud, hybrid or on-site software deployment
-* Access from any device on the plant floor, in the office and mobile
++ Weighing products on any existing plant floor scale without buying new hardware
++ No requirement for hardware vendor lock-in - you can buy new scales from anyone
++ Flexible deployment options - cloud, hybrid or on-site software deployment
++ Access from any device on the plant floor, in the office and mobile
 
-We already have a few customers piloting Catchmate with more soon to come onboard. To see Catchmate in action, [request a demo](mailto:hello@catchmate.ca?Subject=Catchmate%20Demo). 
+We already have a few customers piloting Catchmate with more soon to come onboard. To see Catchmate in action, [request a demo](mailto:hello@catchmate.ca?Subject=Catchmate%20Demo) or learn more about [our solutions](https://catchmate.ca/#solution).
