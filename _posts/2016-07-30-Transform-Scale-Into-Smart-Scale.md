@@ -9,7 +9,7 @@ We define a smart scale kind of like the definition of a smartphone: the same fu
 
 A smart scale in the context of a food processing facility means a scale that is connected to the internet so that the data from the scale can be used to label cases, track production and lot trace products later on.
 
-Many existing hardware providers offer solutions that provide this functionality but the data often lives on the plant floor device itself and cannot be access remotely, including from the office.
+Many existing hardware providers offer solutions that provide this functionality but the data often lives on the plant floor device itself and cannot be access remotely, including from the office. This can make it difficult to meaningfully analyze your production data.
 
 In order to get the data from the scale into Catchmate, we use [an adapter device](https://www.startech.com/Networking-IO/Serial-over-IP/1-port-RS232-serial-over-ip-adapter~NETRS2321P) that takes the input from the scale (if it is serial format like USB or RS232) and converts it to TCP/IP, the technology that underlies the internet.
 
