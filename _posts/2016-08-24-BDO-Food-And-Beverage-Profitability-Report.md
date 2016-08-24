@@ -5,7 +5,7 @@ title: BDO Food and Beverage Profitability Report
 
 BDO recently released a quarterly report for food and beverage processors to get a better understanding of what is happening in the Canadian market and how it will affect profitability. 
 
-The article discussed various subjects of interest to food processors, such as:
+[Click here to access the report](http://www.bdo.ca/en/Library/Industries/retail-consumer-business/pages/Food-and-Beverage-Quarterly-Profitability-in-competitive-landscapes.aspx). The article discussed various subjects of interest to food processors, such as:
 
 - Strategic use of quota allocations and partnerships for quota
 - Implications of the upcomming TPP trade agreement
