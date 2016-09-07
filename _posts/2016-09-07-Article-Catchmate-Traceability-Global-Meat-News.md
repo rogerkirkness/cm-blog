@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GS1-128 Resources
+title: Global Meat News Article Features Catchmate
 ---
 
 Global Meat News recently featured Catchmate in their digital edition and daily meat industry newsletter. Various subscription options can be found [here](http://www.globalmeatnews.com/). 
