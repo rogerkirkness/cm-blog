@@ -7,6 +7,7 @@ Catchmate recently updated our production app running at [https://app.catchmate.
 
 - Added button to remove existing company logo or plant logo
 - Added support for custom batch numbers in traceability report
+- Improved print layout and user control over print margins
 - Various other minor bug fixes and performance enhancements
 
 We also updated our production database with the following functionality: 
