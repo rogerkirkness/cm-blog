@@ -11,5 +11,9 @@ Catchmate teamed up with Minotaur Software and FBO to offer a webinar. Various b
 - SSCC-18 barcodes for labeling skids of food
 - EDI relationships with major food service and grocery customers
 - ERP and other alternative technologies for automating traceability
+- How barcodes and traceability apply to FSMA and GFSI
 
 The webinar runs about 35 minutes and covers these subjects at a high level. We welcome your thoughts and feedback [here](mailto:thoughts@catchmate.ca). Enjoy!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkVBdweywFc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
