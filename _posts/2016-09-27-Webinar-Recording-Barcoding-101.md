@@ -15,5 +15,5 @@ Catchmate teamed up with Minotaur Software and FBO to offer a webinar. Various b
 
 The webinar runs about 35 minutes and covers these subjects at a high level. We welcome your thoughts and feedback [here](mailto:thoughts@catchmate.ca). Enjoy!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JkVBdweywFc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="400" src="https://www.youtube.com/embed/JkVBdweywFc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
