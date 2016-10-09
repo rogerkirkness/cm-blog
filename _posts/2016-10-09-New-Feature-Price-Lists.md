@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Feature: Price Lists
+title: Price Lists
 ---
 Catchmate recently launched a new feature in all production customer systems called price lists. 
 
